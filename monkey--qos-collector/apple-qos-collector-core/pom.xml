@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>monkey-qos-collector</artifactId>
+		<groupId>com.monkeyframework.qos</groupId>
+		<version>0.0.6.RELEASE</version>
+	</parent>
+	<artifactId>monkey-qos-collector-core</artifactId>
+	<name>monkey-qos-collector-core</name>
+	<url>http://mvnrepo.monkeyframework.com</url>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+		</dependency>
+		<!-- 
+		<dependency>
+			<groupId>com.monkeyframework.config</groupId>
+			<artifactId>monkey-config-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.monkeyframework.boot</groupId>
+			<artifactId>monkey-boot-core</artifactId>
+		</dependency>
+		 -->
+		<dependency>
+			<groupId>com.monkeyframework</groupId>
+			<artifactId>monkey-exception</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>

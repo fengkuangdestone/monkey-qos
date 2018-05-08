@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>monkey-qos</artifactId>
+		<groupId>com.monkeyframework.qos</groupId>
+		<version>0.0.6.RELEASE</version>
+	</parent>
+	<artifactId>monkey-qos-server</artifactId>
+	<name>monkey-qos-server</name>
+	<packaging>pom</packaging>
+	<url>http://mvnrepo.monkeyframework.com</url>
+		
+	<modules>
+		<module>monkey-qos-server-agent</module>
+		<module>monkey-qos-server-core</module>
+		<module>monkey-qos-server-monitor</module>
+		<module>monkey-qos-server-statistics</module>
+	</modules>
+</project>
